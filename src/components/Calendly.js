@@ -4,7 +4,7 @@ const Calendly = () => {
   return (
     <div style={{ height: "800px" }}>
       <iframe title="calendly embed"
-        src="https://calendly.com/free-flo/growth-demo"
+        src="https://calendly.com/free-flo/growth-demo?hide_gdpr_banner=1"
         width="100%"
         height="100%"
         frameborder="0"
