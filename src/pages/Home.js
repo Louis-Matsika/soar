@@ -1,5 +1,7 @@
 import React from "react";
 import Calendly from "../components/Calendly";
+import { IonIcon } from "@ionic/react";
+import { checkmarkOutline, closeOutline } from "ionicons/icons";
 
 function Home() {
   return (
@@ -96,7 +98,7 @@ function Home() {
 
           {/* SECTION TWO */}
           <section class="section-two section-two-four">
-            <div class="two-four">
+            <div class="two-four grid grid--2-cols">
               <div class="two-four-image-box">
                 <picture>
                   {/* <source srcset="img/hero.webp" type="image/webp" /> */}
@@ -164,7 +166,7 @@ function Home() {
                   flow.
                 </p>
               </div>
-              <div class="three-text-box">
+              <div class="three-text-box three-text-box--last">
                 <h3 class="heading-tertiary">Soar</h3>
                 <p class="three-description">
                   And finally we let your business soar! And we won't leave you
@@ -182,7 +184,7 @@ function Home() {
 
           {/* SECTION FOUR */}
           <section class="section-four section-two-four">
-            <div class="two-four">
+            <div class="two-four grid grid--2-cols">
               <div class="two-four-text-box">
                 <span class="subheading">What do we offer?</span>
                 <h2 class="heading-secondary">Paid advertising</h2>
@@ -237,7 +239,7 @@ function Home() {
 
                   <img
                     src="site-content/five.svg"
-                    class="two-four-image"
+                    class="five-image"
                     alt="Illustration of lady searching the web"
                   />
                 </picture>
@@ -249,27 +251,18 @@ function Home() {
                 </header>
                 <ul class="list">
                   <li class="list-item">
-                    <ion-icon
-                      class="list-icon"
-                      name="checkmark-outline"
-                    ></ion-icon>
+                    <IonIcon class="list-icon" icon={checkmarkOutline} />
                     <span>We analyse the history of your brand</span>
                   </li>
                   <li class="list-item">
-                    <ion-icon
-                      class="list-icon"
-                      name="checkmark-outline"
-                    ></ion-icon>
+                    <IonIcon class="list-icon" icon={checkmarkOutline} />
                     <span>
                       We create & manage campaigns that sell your product
                       efficiently
                     </span>
                   </li>
                   <li class="list-item">
-                    <ion-icon
-                      class="list-icon"
-                      name="checkmark-outline"
-                    ></ion-icon>
+                    <IonIcon class="list-icon" icon={checkmarkOutline} />
                     <span>
                       We collect & utilize data to continuously optimise & scale
                       your campaigns
@@ -284,15 +277,15 @@ function Home() {
                 </header>
                 <ul class="list">
                   <li class="list-item">
-                    <ion-icon class="list-icon" name="close-outline"></ion-icon>
+                    <IonIcon class="list-icon" icon={closeOutline} />
                     <span>We do not create the content for campaigns</span>
                   </li>
                   <li class="list-item">
-                    <ion-icon class="list-icon" name="close-outline"></ion-icon>
+                    <IonIcon class="list-icon" icon={closeOutline} />
                     <span>We do not charge money to onboard you</span>
                   </li>
                   <li class="list-item">
-                    <ion-icon class="list-icon" name="close-outline"></ion-icon>
+                    <IonIcon class="list-icon" icon={closeOutline} />
                     <span>
                       We do not offer any other service such as SEO optimisation
                       or Email marketing
@@ -327,27 +320,18 @@ function Home() {
                   </header>
                   <ul class="list">
                     <li class="list-item">
-                      <ion-icon
-                        class="list-icon"
-                        name="checkmark-outline"
-                      ></ion-icon>
+                      <IonIcon class="list-icon" icon={checkmarkOutline} />
                       <span>We analyse the history of your brand</span>
                     </li>
                     <li class="list-item">
-                      <ion-icon
-                        class="list-icon"
-                        name="checkmark-outline"
-                      ></ion-icon>
+                      <IonIcon class="list-icon" icon={checkmarkOutline} />
                       <span>
                         We create & manage campaigns that sell your product
                         efficiently
                       </span>
                     </li>
                     <li class="list-item">
-                      <ion-icon
-                        class="list-icon"
-                        name="checkmark-outline"
-                      ></ion-icon>
+                      <IonIcon class="list-icon" icon={checkmarkOutline} />
                       <span>
                         We collect & utilize data to continuously optimise &
                         scale your campaigns
