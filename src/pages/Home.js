@@ -1,7 +1,5 @@
 import React from "react";
 import Calendly from "../components/Calendly";
-import { IonIcon } from "@ionic/react";
-import { checkmarkOutline, closeOutline } from "ionicons/icons";
 
 function Home() {
   return (
@@ -29,15 +27,6 @@ function Home() {
         <link rel="stylesheet" href="css/general.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/queries.css" />
-
-        <script
-          type="module"
-          src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
-        ></script>
-        <script
-          nomodule
-          src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
-        ></script>
 
         <script
           defer
@@ -251,18 +240,58 @@ function Home() {
                 </header>
                 <ul class="list">
                   <li class="list-item">
-                    <IonIcon class="list-icon" icon={checkmarkOutline} />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 list-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+
                     <span>We analyse the history of your brand</span>
                   </li>
                   <li class="list-item">
-                    <IonIcon class="list-icon" icon={checkmarkOutline} />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 list-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
                     <span>
                       We create & manage campaigns that sell your product
                       efficiently
                     </span>
                   </li>
                   <li class="list-item">
-                    <IonIcon class="list-icon" icon={checkmarkOutline} />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 list-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
                     <span>
                       We collect & utilize data to continuously optimise & scale
                       your campaigns
@@ -277,15 +306,57 @@ function Home() {
                 </header>
                 <ul class="list">
                   <li class="list-item">
-                    <IonIcon class="list-icon" icon={closeOutline} />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 list-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6 18L18 6M6 6l12 12"
+                      />
+                    </svg>
+
                     <span>We do not create the content for campaigns</span>
                   </li>
                   <li class="list-item">
-                    <IonIcon class="list-icon" icon={closeOutline} />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 list-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6 18L18 6M6 6l12 12"
+                      />
+                    </svg>
+
                     <span>We do not charge money to onboard you</span>
                   </li>
                   <li class="list-item">
-                    <IonIcon class="list-icon" icon={closeOutline} />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 list-icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6 18L18 6M6 6l12 12"
+                      />
+                    </svg>
+
                     <span>
                       We do not offer any other service such as SEO optimisation
                       or Email marketing
@@ -320,18 +391,60 @@ function Home() {
                   </header>
                   <ul class="list">
                     <li class="list-item">
-                      <IonIcon class="list-icon" icon={checkmarkOutline} />
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6 list-icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M4.5 12.75l6 6 9-13.5"
+                        />
+                      </svg>
+
                       <span>We analyse the history of your brand</span>
                     </li>
                     <li class="list-item">
-                      <IonIcon class="list-icon" icon={checkmarkOutline} />
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6 list-icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M4.5 12.75l6 6 9-13.5"
+                        />
+                      </svg>
+
                       <span>
                         We create & manage campaigns that sell your product
                         efficiently
                       </span>
                     </li>
                     <li class="list-item">
-                      <IonIcon class="list-icon" icon={checkmarkOutline} />
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6 list-icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M4.5 12.75l6 6 9-13.5"
+                        />
+                      </svg>
+
                       <span>
                         We collect & utilize data to continuously optimise &
                         scale your campaigns
