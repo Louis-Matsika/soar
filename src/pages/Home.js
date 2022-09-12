@@ -405,8 +405,8 @@ function Home() {
                         </svg>
 
                         <span>
-                          Businesses that are looking for an agency that has no
-                          higher priority than the clients it serves.
+                          Businesses looking for an agency that has no higher
+                          priority than the clients it serves.
                         </span>
                       </li>
                       <li class="list-item">
@@ -446,8 +446,8 @@ function Home() {
                         </svg>
 
                         <span>
-                          Businesses that are looking for an agency to make them
-                          a priority.
+                          Businesses looking for an agency to make them a
+                          priority.
                         </span>
                       </li>
                     </ul>
