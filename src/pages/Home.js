@@ -4,39 +4,6 @@ import Calendly from "../components/Calendly";
 function Home() {
   return (
     <div>
-      <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-          name="description"
-          content="FreeFlo social media marketing agency website"
-        />
-
-        <link rel="icon" href="img/favicon/favicon.png" />
-        <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png" />
-        <link rel="manifest" href="manifest.webmanifest" />
-
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-
-        <link rel="stylesheet" href="css/general.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/queries.css" />
-
-        <script
-          defer
-          src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
-        ></script>
-
-        <script defer src="js/script.js"></script>
-
-        <title>FreeFlo</title>
-      </head>
       <body>
         <header class="header">
           <a href="#">
@@ -59,7 +26,7 @@ function Home() {
                 </h1>
                 <p class="hero-description">
                   Ads shouldn't be weighing down your business, so
-                  <em>why let them?</em>
+                  <em> why let them? </em>
                   With a breathtaking ROI and full money back guarantee let Us
                   do the heavy lifting!
                 </p>
@@ -114,12 +81,12 @@ function Home() {
                   </p>
                   <p class="two-four-description-child">
                     Your business product is your baby and
-                    <strong>you shouldn't have have to compromise</strong>
+                    <strong> you shouldn't have have to compromise </strong>
                     developing your product to run low yielding Ads.
                   </p>
                   <p class="two-four-description-child">
                     At FreeFlo we also put our money where our mouth is, unlike
-                    <em>other</em> agencies if we can't give you a desired ROI
+                    <em> other </em> agencies if we can't give you a desired ROI
                     we guarantee you a full refund - no questions asked.
                   </p>
                 </div>
@@ -380,77 +347,111 @@ function Home() {
                 <h2 class="heading-secondary center-text">Let's Talk</h2>
                 <span class="subheading center-text">Book a call</span>
 
-                <div class="cta-text-box">
-                  {/* REPLACE EMBED HERE */}
+                <div class="cta-embed">
                   <Calendly />
                 </div>
 
                 <div class="five-box">
-                  <header class="five-header center-text">
-                    <p class="five-name">What we do</p>
-                  </header>
-                  <ul class="list">
-                    <li class="list-item">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        class="w-6 h-6 list-icon"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M4.5 12.75l6 6 9-13.5"
-                        />
-                      </svg>
+                  <div class="portrait-picture">
+                    <img
+                      src="site-content/Louis.jpeg"
+                      alt="Portrait of Louis"
+                      class="louis-picture"
+                    />
+                  </div>
+                  <div class="what-we-do what-we-do--1">
+                    <header class="five-header center-text">
+                      <p class="five-name">
+                        Schedule your call with Louis (FreeFlo CEO)
+                      </p>
+                    </header>
+                    <ul class="list">
+                      <li class="list-item">
+                        <span>
+                          This call is a free, and non-binding strategy call
+                          with FreeFlo. In this call we will elaborate on social
+                          media marketing strategies we could tailor and
+                          implement for your particular business, in order to
+                          let your business Flo! And boost online sales.
+                        </span>
+                      </li>
+                      <li class="list-item">
+                        <span>
+                          Find a time on Louis’ calendar to schedule your call
+                          today and we look forward to speaking to you soon!
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="what-we-do what-we-do--2">
+                    <header class="five-header center-text">
+                      <p class="five-name">Who is this call perfect for?</p>
+                    </header>
+                    <ul class="list">
+                      <li class="list-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="w-6 h-6 list-icon"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M4.5 12.75l6 6 9-13.5"
+                          />
+                        </svg>
 
-                      <span>We analyse the history of your brand</span>
-                    </li>
-                    <li class="list-item">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        class="w-6 h-6 list-icon"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M4.5 12.75l6 6 9-13.5"
-                        />
-                      </svg>
+                        <span>
+                          Businesses that are looking for an agency that has no
+                          higher priority than the clients it serves.
+                        </span>
+                      </li>
+                      <li class="list-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="w-6 h-6 list-icon"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M4.5 12.75l6 6 9-13.5"
+                          />
+                        </svg>
 
-                      <span>
-                        We create & manage campaigns that sell your product
-                        efficiently
-                      </span>
-                    </li>
-                    <li class="list-item">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        class="w-6 h-6 list-icon"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M4.5 12.75l6 6 9-13.5"
-                        />
-                      </svg>
+                        <span>
+                          Businesses looking to maximize their conversion rates.
+                        </span>
+                      </li>
+                      <li class="list-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="w-6 h-6 list-icon"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M4.5 12.75l6 6 9-13.5"
+                          />
+                        </svg>
 
-                      <span>
-                        We collect & utilize data to continuously optimise &
-                        scale your campaigns
-                      </span>
-                    </li>
-                  </ul>
+                        <span>
+                          Businesses that are looking for an agency to make them
+                          a priority.
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
