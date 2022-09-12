@@ -347,77 +347,111 @@ function Home() {
                 <h2 class="heading-secondary center-text">Let's Talk</h2>
                 <span class="subheading center-text">Book a call</span>
 
-                <div class="cta-text-box">
-                  {/* REPLACE EMBED HERE */}
+                <div class="cta-embed">
                   <Calendly />
                 </div>
 
                 <div class="five-box">
-                  <header class="five-header center-text">
-                    <p class="five-name">What we do</p>
-                  </header>
-                  <ul class="list">
-                    <li class="list-item">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        class="w-6 h-6 list-icon"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M4.5 12.75l6 6 9-13.5"
-                        />
-                      </svg>
+                  <div class="portrait-picture">
+                    <img
+                      src="site-content/Louis.jpeg"
+                      alt="Portrait of Louis"
+                      class="louis-picture"
+                    />
+                  </div>
+                  <div class="what-we-do what-we-do--1">
+                    <header class="five-header center-text">
+                      <p class="five-name">
+                        Schedule your call with Louis (FreeFlo CEO)
+                      </p>
+                    </header>
+                    <ul class="list">
+                      <li class="list-item">
+                        <span>
+                          This call is a free, and non-binding strategy call
+                          with FreeFlo. In this call we will elaborate on social
+                          media marketing strategies we could tailor and
+                          implement for your particular business, in order to
+                          let your business Flo! And boost online sales.
+                        </span>
+                      </li>
+                      <li class="list-item">
+                        <span>
+                          Find a time on Louis’ calendar to schedule your call
+                          today and we look forward to speaking to you soon!
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="what-we-do what-we-do--2">
+                    <header class="five-header center-text">
+                      <p class="five-name">Who is this call perfect for?</p>
+                    </header>
+                    <ul class="list">
+                      <li class="list-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="w-6 h-6 list-icon"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M4.5 12.75l6 6 9-13.5"
+                          />
+                        </svg>
 
-                      <span>We analyse the history of your brand</span>
-                    </li>
-                    <li class="list-item">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        class="w-6 h-6 list-icon"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M4.5 12.75l6 6 9-13.5"
-                        />
-                      </svg>
+                        <span>
+                          Businesses looking for an agency that has no higher
+                          priority than the clients it serves.
+                        </span>
+                      </li>
+                      <li class="list-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="w-6 h-6 list-icon"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M4.5 12.75l6 6 9-13.5"
+                          />
+                        </svg>
 
-                      <span>
-                        We create & manage campaigns that sell your product
-                        efficiently
-                      </span>
-                    </li>
-                    <li class="list-item">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        class="w-6 h-6 list-icon"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M4.5 12.75l6 6 9-13.5"
-                        />
-                      </svg>
+                        <span>
+                          Businesses looking to maximize their conversion rates.
+                        </span>
+                      </li>
+                      <li class="list-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="w-6 h-6 list-icon"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M4.5 12.75l6 6 9-13.5"
+                          />
+                        </svg>
 
-                      <span>
-                        We collect & utilize data to continuously optimise &
-                        scale your campaigns
-                      </span>
-                    </li>
-                  </ul>
+                        <span>
+                          Businesses that are looking for an agency to make them
+                          a priority.
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>

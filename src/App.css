@@ -438,16 +438,23 @@ strong {
 
 .section-cta {
   padding: 9.6rem 0;
+  background-color: #fdf2e9;
+}
+
+.cta-embed {
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  border-radius: 11px;
 }
 
 .section-cta .subheading {
   grid-column: 1 / span 2;
   grid-row: 2 / span 1;
-  color: #fff;
+  margin-bottom: 4.8rem;
 }
 
 .section-cta .five-box {
-  background-color: #fff;
   border-radius: 12px;
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
@@ -456,25 +463,59 @@ strong {
 
 .cta {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  background-color: #e67e22;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
-  border-radius: 11px;
-  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
-  column-gap: 2.4rem;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4.8rem;
   padding: 0 2.4rem 2.4rem 2.4rem;
 }
 
 .cta .heading-secondary {
   color: #333;
-  margin: 3.2rem 0 1.6rem 0;
+  margin-bottom: 1.6rem;
   grid-column: 1 / span 2;
-  grid-row: 1 / span 1;
 }
 
 .cta *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+.cta .five-name {
+  margin-bottom: 2.4rem;
+}
+
+.portrait-picture {
+  display: flex;
+  margin-bottom: 4.8rem;
+}
+
+.louis-picture {
+  height: 30rem;
+  width: 30rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1rem solid #e67e22;
+  margin: 0 auto;
+}
+
+.what-we-do--1 {
+  margin-bottom: 4.8rem;
+}
+
+.what-we-do .center-text {
+  text-align: left;
+}
+
+.what-we-do--1 .list-item {
+  display: inline;
+}
+
+.what-we-do .list-item {
+  gap: 1.2rem;
+  grid-template-columns: 1fr 15fr;
+}
+
+.cta .five-box {
+  padding: 0;
 }
 
 /****************************/
