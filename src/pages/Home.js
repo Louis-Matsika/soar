@@ -4,39 +4,6 @@ import Calendly from "../components/Calendly";
 function Home() {
   return (
     <div>
-      <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-          name="description"
-          content="FreeFlo social media marketing agency website"
-        />
-
-        <link rel="icon" href="img/favicon/favicon.png" />
-        <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png" />
-        <link rel="manifest" href="manifest.webmanifest" />
-
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-
-        <link rel="stylesheet" href="css/general.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/queries.css" />
-
-        <script
-          defer
-          src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
-        ></script>
-
-        <script defer src="js/script.js"></script>
-
-        <title>FreeFlo</title>
-      </head>
       <body>
         <header class="header">
           <a href="#">
@@ -59,7 +26,7 @@ function Home() {
                 </h1>
                 <p class="hero-description">
                   Ads shouldn't be weighing down your business, so
-                  <em>why let them?</em>
+                  <em> why let them? </em>
                   With a breathtaking ROI and full money back guarantee let Us
                   do the heavy lifting!
                 </p>
@@ -114,12 +81,12 @@ function Home() {
                   </p>
                   <p class="two-four-description-child">
                     Your business product is your baby and
-                    <strong>you shouldn't have have to compromise</strong>
+                    <strong> you shouldn't have have to compromise </strong>
                     developing your product to run low yielding Ads.
                   </p>
                   <p class="two-four-description-child">
                     At FreeFlo we also put our money where our mouth is, unlike
-                    <em>other</em> agencies if we can't give you a desired ROI
+                    <em> other </em> agencies if we can't give you a desired ROI
                     we guarantee you a full refund - no questions asked.
                   </p>
                 </div>
